@@ -924,3 +924,38 @@ body{
     color: #e0b4b4 !important;
 }
 
+@media(max-width: 768px){
+
+    .topo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+
+        padding: 20px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+    .menu a{
+        font-size: 14px;
+
+        padding: 6px 10px;
+    }
+
+    .busca{
+        margin: 0;
+    }
+
+    .busca input{
+        width: 160px;
+    }
+
+}
+
